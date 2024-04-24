@@ -1,0 +1,45 @@
+rax2 -converter 
+it allows to make multiple number base conversions
+
+rax2 10 
+-> 0xa
+// binary 
+rax "=2" 4
+100
+
+rax2 -e changes endiness
+
+//converts string to hex pairs
+rax2 -S davi
+64617669
+
+rax2 -s 64617669
+davi
+
+//gives ascii table
+rax2 -a 
+
+
+man ascii <-has the ascii table
+
+
+rahash2 hashing utility
+
+-a - chooses an algo
+-L - Lists all available algos
+-c compares hashes 
+
+rahash2 -a md5 h1dd3nfl4g
+b10e975b75f9e476b31a1bb80e146fe8
+
+rahash -a md5 -c b10e975b75f9e476b31a1bb80e146fe8 getting_started
+Computed hash doesnt match the expected one
+
+
+/dev/urandom <- random values coming from the kernel
+
+dd - read and writes from files
+
+//le de text 32 byte uma vez e escreve em output
+dd if=text of=output bs=32 count=1
+ 
