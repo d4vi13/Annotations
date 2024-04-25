@@ -42,4 +42,4 @@ dd - read and writes from files
 
 //le de text 32 byte uma vez e escreve em output
 dd if=text of=output bs=32 count=1
- 
+ a
